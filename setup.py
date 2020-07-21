@@ -13,3 +13,34 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with hello-copr.  If not, see <http://www.gnu.org/licenses/>.
+
+from setuptools import setup, find_packages
+
+# use README.md as readme
+def readme():
+    with open('README.md') as f:
+        return f.read()
+
+# setuptools configuration
+setup(
+    name='hello_copr',
+    description='A trivial demo program used to explain packaging for Fedora Copr',
+    long_description=readme(),
+    long_description_content_type="text/markdown",
+    url='https://pagure.io/copr-tito-quickdoc',
+    author='Christopher Engelhard',
+    license='GPLv3',
+    version='1.0.0',
+
+    # tell distutils packages are under src directory
+    package_dir={
+      '': 'src',
+    },
+    packages=find_packages('src'),
+    install_requires=['colorama'],
+
+    # automatically create console scripts
+    entry_points={
+      'console_scripts': ['hello-copr=hello_copr.hello_copr:main'],
+    },
+    )
