@@ -23,7 +23,7 @@ def readme():
 
 # setuptools configuration
 setup(
-    name='hello_copr',
+    name='hellocopr',
     description='A trivial demo program used to explain packaging for Fedora Copr',
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -41,6 +41,6 @@ setup(
 
     # automatically create console scripts
     entry_points={
-      'console_scripts': ['hello-copr=hello_copr.hello_copr:main'],
+      'console_scripts': ['hellocopr=hellocopr.hellocopr:main'],
     },
     )
