@@ -1,0 +1,8 @@
+# All files to globally ignore
+*.pyc
+*.pyo
+*.egg
+*.egg-info
+dist
+build
+__pycache__
