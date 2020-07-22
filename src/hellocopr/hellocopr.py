@@ -18,10 +18,14 @@ from colorama import init
 
 from hellocopr.colors import red, green, normal
 
+__version__ = '1.0.0'
+
 init()
 
 def hello():
-    arg = red("Hello! ") + green("I'm the hellocopr demo program. ") + normal("I don't do much.")
+    arg = green("Hello! ") + \
+          normal("I'm the hellocopr demo program. I'm already at version ") + \
+          red(__version__) +  normal(", but I still don't do much.")
     return arg
 
 def main():
