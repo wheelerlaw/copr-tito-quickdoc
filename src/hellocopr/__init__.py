@@ -14,4 +14,6 @@
 # You should have received a copy of the GNU General Public License
 # along with hellocopr.  If not, see <http://www.gnu.org/licenses/>.
 
-__version__ = '1.0.0'
+# This file is automatically created from a template by tito. Do not edit it manually.
+
+__version__ = '1.0.2'
