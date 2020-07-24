@@ -9,14 +9,14 @@ nothing but display some text on the command line. It (needlessly) uses python
 setuptools & imports some python libraries to better illustrate the packaging
 process.
 
-The associated Copr repository can be found [here](https://copr.fedorainfracloud.org/coprs/lcts/copr-tito-quickdoc/).
+The associated Copr repository can be found [here](https://copr.fedorainfracloud.org/coprs/lcts/hellocopr/).
 
 ## What is where?
 
-The `master` branch contains all files as used in the quick doc. For extensively commented
-versions of files that you can use as a template for your own projects, use the `annotated` branch.
+The `master` branch contains all files as used in the quick doc. The quick doc itself as well as an
+extensively annotated version of the specfile can be found in the `doc` folder.
 The `foreign-sources` branch contains a version of the project adapted for when sources are located
-elsewhere, e.g. when you're packaging someone else's software-tarballs.
+elsewhere, e.g. when you're packaging someone else's tarballs.
 
 The `step-N` tags mark the state of all files *at the end* of the corresponding *Step N*-sections
 in the quick doc.
