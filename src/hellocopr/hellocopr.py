@@ -16,9 +16,8 @@
 
 from colorama import init
 
+from hellocopr import __version__
 from hellocopr.colors import red, green, normal
-
-__version__ = '1.0.0'
 
 init()
 
