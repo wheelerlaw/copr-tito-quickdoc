@@ -3,7 +3,7 @@
 # copr-tito-quickdoc
 
 This repository contains the `hellocopr` program used as an example in the 
-*Automagically publish your software in the Copr user repository* quick doc.
+[*Automagically publish your software in the Copr user repository*]( https://docs.fedoraproject.org/en-US/quick-docs/publish-rpm-on-copr/) quick doc.
 Hellocopr itself is a very simple demonstration python3 program that does
 nothing but display some text on the command line. It (needlessly) uses python
 setuptools & imports some python libraries to better illustrate the packaging
